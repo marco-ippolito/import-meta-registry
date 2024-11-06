@@ -20,3 +20,4 @@ The process for adding new items to this registry is to open a pull request. Reg
 | `import.meta.dir`     | Absolute path to the directory containing the current file, e.g. /path/to/project. Equivalent to __dirname in CommonJS modules (and Node.js) | https://bun.sh/docs/api/import-meta |
 | `import.meta.file`    | The name of the current file, e.g. index.tsx | https://bun.sh/docs/api/import-meta |
 | `import.meta.path`    | Absolute path to the current file, e.g. /path/to/project/index.tx. Equivalent to __filename in CommonJS modules (and Node.js) | https://bun.sh/docs/api/import-meta |
+| `import.meta.require` | A function that can be used to syncronously import modules. Equivalent to `require` in CommonJS modules or `module.createRequire(import.meta.url)(id)` in Node.js | <https://github.com/nodejs/node/pull/55730> |
